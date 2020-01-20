@@ -1139,7 +1139,7 @@ footer .col-3 {
     padding: 5rem 6rem 1rem 2rem;
   }
   #hostel-info .container .row .col-4 h4 {
-    text-align: left;
+    text-align: left !important;
   }
   #hostel-info .container .row .col-8 .col-3 {
     padding: 1rem;
@@ -1233,7 +1233,7 @@ footer .col-3 {
     font-size: 2rem !important;
   }
   .rooms__btn {
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 1.2rem;
   }
   .gallery {
     padding: 1.6rem 3rem;
