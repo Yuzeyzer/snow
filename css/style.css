@@ -1135,7 +1135,7 @@ footer .col-3 {
     width: 45%;
   }
   #hostel-info .container .row .col-4 {
-    text-align: left;
+    text-align: left !important;
     padding: 5rem 6rem 1rem 2rem;
   }
   #hostel-info .container .row .col-8 .col-3 {
