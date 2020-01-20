@@ -262,6 +262,7 @@ body {
  #hostel-info .container .row .col-4 {
      padding:5rem 6rem 1rem 0;
      width: 35%;
+     text-align: right;
  }
  #hostel-info .container .row .Snow {
      color:#00afef ;
@@ -275,7 +276,6 @@ body {
      text-align: right;
  }
  #hostel-info .container .row .reserve {
-     float: right;
      margin-top: 5rem;
      color: #fff;
      font-size: 2.5rem;
@@ -416,7 +416,7 @@ body {
  :-ms-input-placeholder      {color:rgba(255,255,255,0.6);}
         /*/End*/
  .welcome {
-     padding: 5rem 0 ;
+     padding: 5rem 0;
  }
  .welcome .row {
      display: flex;
@@ -846,7 +846,8 @@ footer .col-3 {
          width: 45%;
      }
      #hostel-info .container .row .col-4 {
-         padding:5rem 6rem 1rem 0;
+         text-align: left;
+         padding:5rem 6rem 1rem 2rem;
      }
      #hostel-info .container .row .col-8 .col-3  {
          padding: 1rem ;
