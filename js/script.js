@@ -1,20 +1,3 @@
-$(window).scroll(function () {
-    let sc = $(window).scrollTop();
-    if (sc > 100) {
-        $(".nav").addClass("sticky")
-        $(".toggle-wrap").addClass("sticky_2");
-        $(".menu").addClass("sticky_2");
-        $(".contact-info").addClass("none");
-        $(".logo, .bars, .logo-img,.logo-text,.Vertical,.social-info").addClass("none");
-
-    } else {
-        $(".nav").removeClass("sticky");
-        $(".toggle-wrap").removeClass("sticky_2");
-        $(".menu").removeClass("sticky_2");
-        $(".contact-info").removeClass("none");
-        $(".logo, .bars, .logo-img,.logo-text,.Vertical,.social-info").removeClass("none");
-    }
-});
 $(document).ready(function () {
     $('.toggle').on('click', function (e) {
         e.preventDefault();
@@ -22,6 +5,14 @@ $(document).ready(function () {
         $('.menu').toggleClass('toggles-clicked');
         $('.for-rgba').toggleClass('for-rgba-clicked');
     });
+    $('.mobile__btn').on('click', function(){
+        $(this).toggleClass('mobile__btn_active');
+        $('.nav-list').toggleClass('menu__active');
+    });
+    $('.nav-list li').on('click',function(){
+        $('.nav-list').removeClass('menu__active');
+        $('.mobile__btn').removeClass('mobile__btn_active');
+    })
     $("#news-slider").owlCarousel({
         items: 3,
         itemsDesktop: [1199, 3],
@@ -66,6 +57,23 @@ $(document).ready(function () {
             0: {
                 items: 1
             }
+        }
+    });
+    $(window).scroll(function () {
+        let sc = $(window).scrollTop();
+        if (sc > 100) {
+            $(".nav").addClass("sticky")
+            $(".toggle-wrap").addClass("sticky_2");
+            $(".menu").addClass("sticky_2");
+            $(".contact-info").addClass("none");
+            $(".logo, .bars, .logo-img,.logo-text,.Vertical,.social-info").addClass("none");
+    
+        } else {
+            $(".nav").removeClass("sticky");
+            $(".toggle-wrap").removeClass("sticky_2");
+            $(".menu").removeClass("sticky_2");
+            $(".contact-info").removeClass("none");
+            $(".logo, .bars, .logo-img,.logo-text,.Vertical,.social-info").removeClass("none");
         }
     });
     let language = {
