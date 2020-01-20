@@ -1175,6 +1175,9 @@ footer .col-3 {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+  .nav .nav-list li {
+    margin-top: 5rem;
+  }
   .logo {
     display: -webkit-box;
     display: -ms-flexbox;

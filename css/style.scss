@@ -878,6 +878,9 @@ footer .col-3 {
         width: 100%;
         transform: translateX(150%);
         transition: 0.5s;
+        li {
+            margin-top: 5rem;
+        }
      }
      .logo {
          display: flex;
