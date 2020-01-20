@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'Gotham Pro', sans-serif;
 }
@@ -581,21 +582,21 @@ header:before {
 }
 
 ::-webkit-input-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 ::-moz-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Firefox 19+ */
 :-moz-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Firefox 18- */
 :-ms-input-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*/End*/

@@ -410,10 +410,10 @@ body {
  #hero .booking .booking-form .form-button:hover {
      cursor: pointer;
  }
- ::-webkit-input-placeholder {color:#fff;}
- ::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
- :-moz-placeholder           {color:#fff;}/* Firefox 18- */
- :-ms-input-placeholder      {color:#fff;}
+ ::-webkit-input-placeholder {color:rgba(255,255,255,0.6);}
+ ::-moz-placeholder          {color:rgba(255,255,255,0.6);}/* Firefox 19+ */
+ :-moz-placeholder           {color:rgba(255,255,255,0.6);}/* Firefox 18- */
+ :-ms-input-placeholder      {color:rgba(255,255,255,0.6);}
         /*/End*/
  .welcome {
      padding: 5rem 0 ;
