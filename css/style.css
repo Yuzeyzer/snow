@@ -728,6 +728,10 @@ footer {
   padding: 7rem 0 0;
 }
 
+footer a {
+  color: #fff;
+}
+
 footer .container {
   width: 90%;
   height: 100%;
