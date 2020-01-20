@@ -201,6 +201,9 @@ span {
   .col-5 {
     width: 100% !important;
   }
+  .col-4 {
+    width: 100% !important;
+  }
   .col-3 {
     width: 100% !important;
   }
