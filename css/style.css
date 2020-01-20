@@ -1122,6 +1122,11 @@ footer .col-3 {
   html {
     font-size: 8px;
   }
+  .mobile__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .logo-text {
     font-size: 2rem !important;
   }
@@ -1144,9 +1149,6 @@ footer .col-3 {
   #hostel-info .container .row .col-8 .col-3 {
     padding: 1rem;
   }
-}
-
-@media screen and (max-width: 767.98px) {
   .toggle-wrap, .menu {
     display: block;
   }
@@ -1214,6 +1216,9 @@ footer .col-3 {
   header {
     height: 15%;
   }
+}
+
+@media screen and (max-width: 767.98px) {
   html {
     font-size: 9px;
   }
@@ -1319,9 +1324,7 @@ footer .col-3 {
 
 .mobile__btn {
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
