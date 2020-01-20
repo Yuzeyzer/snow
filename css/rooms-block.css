@@ -1,0 +1,91 @@
+/*Этот файл создан для блока #rooms*/
+.For-1,.For-2,.For-3,.For-4,.For-5,.For-6,.For-7 {
+    position: relative;
+    padding: 15rem 0;
+    width: 100%;
+}
+.For-1 {
+    background: url("../images/room-1.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-2 {
+    background-image: url("../images/room-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.For-3 {
+    background: url("../images/room-2.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-4 {
+    background: url("../images/room-4.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-5 {
+    background: url("../images/room-5.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-6 {
+    background: url("../images/room-6.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-7 {
+    background: url("../images/room-7.jpg") center no-repeat;
+    background-size: cover;
+}
+.For-1:before,.For-2:before,.For-3:before,.For-4:before,.For-5:before,.For-6:before,.For-7:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.For-1:before {
+    background-color: rgba(0,0,180,0.25);
+}
+.For-2:before {
+    background-color: rgba(0,180,0,0.25);
+}
+.For-3:before {
+    background-color: rgba(180,00,0,0.35);
+}
+.For-4:before {
+    background-color: rgba(20,120,124,0.35);
+}
+.For-5:before {
+    background-color: rgba(120,120,120,0.35);
+}
+.For-6:before {
+    background-color: rgba(240,00,250,0.30);
+}
+.For-7:before {
+    background-color: rgba(180,230,0,0.35);
+}
+.room-info {
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    padding: 2rem 3rem;
+    border: 1px solid rgba(255,255,255,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.room-info .title {
+    font-family: "Sansita",sans-serif;
+    text-transform: uppercase;
+    font-size: 4.8rem;
+}
+.room-info .room-text {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+.room-info .room-price {
+    margin-top: 3rem;
+    font-family: "Sansita",sans-serif;
+    text-transform: uppercase;
+    font-size: 4.8rem;
+}

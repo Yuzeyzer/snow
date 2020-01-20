@@ -1,0 +1,40 @@
+
+#rooms {
+    padding: 10rem 5rem;
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 0 0 4rem;
+        color: #373435;
+    }
+    .rooms__item {
+        padding: 1rem;
+        h3 {
+            margin: 2rem 0;
+            font-size: 2rem;
+            color: #00afef;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .gallery {
+            font-family: "Sansita",sans-serif;
+            font-weight: 600;
+            text-align: center;
+            background-color: #00afef;
+            color: #fff;
+            font-size: 1.6rem;
+            padding: 1rem 3rem;
+           
+        }
+        .rooms__btn {
+            font-family: "Sansita",sans-serif;
+            font-weight: 600;
+            text-align: center;
+            background-color: #00afef;
+            color: #fff;
+            font-size: 1.6rem;
+            padding: 1rem;
+           
+        }
+    }
+}
