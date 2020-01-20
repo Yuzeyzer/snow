@@ -853,6 +853,9 @@ footer .col-3 {
      #hostel-info .container .row .col-4 {
          text-align: left !important;
          padding:5rem 6rem 1rem 2rem;
+         h2,h3 {
+             text-align: left;
+         }
      }
      #hostel-info .container .row .col-8 .col-3  {
          padding: 1rem ;
@@ -935,7 +938,7 @@ footer .col-3 {
          padding: 1rem ;
      }
      .rooms__btn, .gallery {
-        padding: 1.6rem 4rem !important;
+      
         font-size: 2rem !important;
      }
  }
@@ -969,7 +972,7 @@ footer .col-3 {
             font-family: "Sansita",sans-serif;
             font-weight: 600;
             text-align: center;
-            background-color: #00afef;
+            background-color: orange;
             color: #fff;
             font-size: 1.6rem;
             padding: 1rem 3rem;
