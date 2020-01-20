@@ -853,7 +853,7 @@ footer .col-3 {
      #hostel-info .container .row .col-4 {
          text-align: left !important;
          padding:5rem 6rem 1rem 2rem;
-         h2,h3 {
+         h4 {
              text-align: left;
          }
      }
@@ -939,7 +939,13 @@ footer .col-3 {
      }
      .rooms__btn, .gallery {
         font-size: 2rem !important;
-     }
+      }
+      .rooms__btn {
+        padding: 1.6rem 2rem;
+      }
+      .gallery {
+        padding: 1.6rem 3rem;
+      }
  }
  @media screen and (max-width:375.98px) {
      html {
