@@ -1408,6 +1408,15 @@ footer .col-3 {
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem 3rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#rooms .rooms__item .gallery:hover {
+  background-color: #fff;
+  color: orange;
+  -webkit-box-shadow: inset 0 0 0 0.2rem orange;
+          box-shadow: inset 0 0 0 0.2rem orange;
 }
 
 #rooms .rooms__item .rooms__btn {
@@ -1418,5 +1427,14 @@ footer .col-3 {
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#rooms .rooms__item .rooms__btn:hover {
+  background-color: #fff;
+  color: #00afef;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00afef;
+          box-shadow: inset 0 0 0 0.2rem #00afef;
 }
 /*# sourceMappingURL=style.css.map */

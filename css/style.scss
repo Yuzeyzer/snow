@@ -1064,6 +1064,12 @@ footer .col-3 {
             color: #fff;
             font-size: 1.6rem;
             padding: 1rem 3rem;
+            transition: 0.3s;
+            &:hover {
+                background-color: #fff;
+                color: orange;
+                box-shadow: inset 0 0 0 0.2rem orange;
+            }
            
         }
         .rooms__btn {
@@ -1074,6 +1080,12 @@ footer .col-3 {
             color: #fff;
             font-size: 1.6rem;
             padding: 1rem;
+            transition: 0.3s;
+            &:hover {
+                background-color: #fff;
+                color: #00afef;
+                box-shadow: inset 0 0 0 0.2rem #00afef;
+            }
            
         }
     }
