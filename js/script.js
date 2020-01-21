@@ -13,6 +13,9 @@ $(document).ready(function () {
         $('.nav-list').removeClass('menu__active');
         $('.mobile__btn').removeClass('mobile__btn_active');
     })
+    // $('.lang-items a').on('click', function(e){
+    //     e.preventDefault();
+    // })
     $("#news-slider").owlCarousel({
         items: 3,
         itemsDesktop: [1199, 3],
@@ -103,6 +106,7 @@ $(document).ready(function () {
             Send:"Send"
         }
     };
+
     if (window.location.hash) {
         if (window.location.hash === "#Eng"){
             nav.textContent = language.EngTr.Main;
@@ -117,20 +121,11 @@ $(document).ready(function () {
             type3.placeholder = language.EngTr.type3;
             send.textContent = language.EngTr.Send;
         }
+    };
+    let dataReload = document.querySelectorAll("[data-reload]");
+    for (let i = 0; i <= dataReload.length; i++) {
+        dataReload[i].onclick = function () {
+            location.reload(true);
+        }
     }
 });
-function  ImageGallery() {
-    const highlight = document.querySelector('.gallery-highlight');
-    const previews = document.querySelectorAll('.room-preview img')
-    
-    previews.forEach(preview =>{
-        preview.addEventListener('click', function () {
-            const smallSrc = this.src;
-            const bigSrc = smallSrc.replace("big","small");
-            highlight.src = bigSrc;
-            previews.forEach(preview => preview.classList.remove('room-active'));
-            preview.classList.add('room-active')
-        });
-    });
-}
-ImageGallery();
