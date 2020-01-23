@@ -46,7 +46,7 @@
                 items: 4
             },
             768: {
-                items: 2
+                items: 3
             },
             596: {
                 items: 2
