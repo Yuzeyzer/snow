@@ -171,7 +171,9 @@ span {
 /*# sourceMappingURL=style.css.map */
 
 @media screen and (max-width:1024px) {
-
+   .col-3 {
+     width: 50% !important;
+   }
 }
 @media screen and (max-width:768px) {
   .col-11 {

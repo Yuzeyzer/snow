@@ -1,10 +1,4 @@
-$(document).ready(function () {
-    $('.toggle').on('click', function (e) {
-        e.preventDefault();
-        $(".toggle-wrap").toggleClass('toggles-clicked');
-        $('.menu').toggleClass('toggles-clicked');
-        $('.for-rgba').toggleClass('for-rgba-clicked');
-    });
+
     $('.mobile__btn').on('click', function(){
         $(this).toggleClass('mobile__btn_active');
         $('.nav-list').toggleClass('menu__active');
@@ -128,4 +122,3 @@ $(document).ready(function () {
             location.reload(true);
         }
     }
-});
